@@ -14,8 +14,8 @@
   grid-column: 2 / 3;
   grid-row: 4 / 5;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 100vh 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   position: relative;
   background-color: #f8f9fa;
 }
@@ -173,11 +173,9 @@
   -moz-transition: opacity 3s linear;
   -o-transition: opacity 3s linear;
   display: grid;
-  grid-template-rows: repeat(20, 1fr);
 }
 
 .landing-div {
-  grid-row: 9 / 12;
   position: relative;
 }
 
