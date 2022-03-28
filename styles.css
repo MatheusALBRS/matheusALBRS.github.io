@@ -110,6 +110,7 @@
 .profile-div {
   background: #001225;
   justify-content: center;
+  width: 100%;
   grid-row: 1 / 2;
   padding-top: 20%;
   display: flex;
@@ -177,15 +178,16 @@
 }
 
 .landing-div {
-  grid-row: 9 / 12;
+  grid-row: 8 / 12;
   position: relative;
+  text-align: center;
 }
 
 #welcome {
   color: #001225;
   margin: 0 0 5px;
   font-weight: 900;
-  font-size: 4em;
+  font-size: 5em;
   line-height: 1.2;
   text-align: center;
 }
@@ -200,5 +202,5 @@
 }
 
 #welcome-subtext {
-  text-align: center;
+  text-align: ;
 }
