@@ -1,9 +1,10 @@
 .projects-div {
   height: 93vh;
+  background-color: #f8f9fa;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
   text-align: center;
+  grid-auto-flow: column;
+  gap: 5%;
 }
-
-
