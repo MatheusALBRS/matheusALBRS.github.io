@@ -12,6 +12,7 @@
 
 .content-div {
   overflow-y: scroll;
+  scroll-behavior: smooth;
   grid-column: 2 / 3;
   grid-row: 4 / 5;
   display: grid;
@@ -177,7 +178,6 @@
   grid-template-rows: repeat(20, 1fr);
 }
 
-
 .landing-div {
   grid-row: 8 / 12;
   position: relative;
@@ -201,5 +201,3 @@
   line-height: 1.2;
   text-align: center;
 }
-
-
