@@ -1,0 +1,27 @@
+.projects-div {
+  opacity: 0;
+  height: 93vh;
+  background-color: #f8f9fa;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  grid-auto-flow: column;
+  gap: 5%;
+}
+
+.projects-page-show {
+  opacity: 1;
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  height: 93vh;
+  background-color: #f8f9fa;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  grid-auto-flow: column;
+  gap: 5%;
+}

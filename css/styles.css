@@ -177,6 +177,7 @@
   grid-template-rows: repeat(20, 1fr);
 }
 
+
 .landing-div {
   grid-row: 8 / 12;
   position: relative;
